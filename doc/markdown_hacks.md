@@ -18,6 +18,15 @@ The table will have to follow by a "name column row", a row with dashes and your
 |Here3|Here4|
 ```
 
+Our beautiful table
+
+|Column 1 | Column 2 |
+|---------|----------|
+|Here1| Here2|
+|Here3|Here4|
+
+
+
 # You can link inside your markdown
 
 The syntax would be a name in brackets, this will be what appears as blue, folowed by a parenthesis with the path to the file.
@@ -26,9 +35,9 @@ The syntax would be a name in brackets, this will be what appears as blue, folow
 
 [really cool video](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 
 
-==friendly reminder== avoid clicking on rabdom links!
+==friendly reminder== **avoid** clicking on rabdom _links_!
 
-If you liked the highlight on the previous line, you can do this as `==your text==`
+If you liked the highlight on the previous line, you can do this as `==your text==`, unfortunately, github markdown does not support highlight. But, put a word inside two asterisks and you'll have a `**bold text**` and do it between underscores for _itallic_ 
 
 I don't know if github will render this, but in some markdown editors you can create  some divisions by adding multiple "-"
 
@@ -42,13 +51,27 @@ it's easy! just type the ">" followed by your text
 
 ------------------------------------------------------------------------
 
+# Code blocks!
+
+In this very markdown, we do have a code block. It is iniciated by stacking three crases, then in the first line you say the language
+
+```bash
+echo $MYVALUE
+```
+
+```python
+import pandas as pd
+```
+
+
+
 # My markdown is broken oh no help
 
 - Check if you have a newline between sessions, sometimes markdown breaks without it
 - Identation! Sometimes it's your friend, sometimes is a foe
 - Please feel free to update this tip markdown!
 
-# Useful resoureces
+# Useful resources
 
 I think that maybe it would be nice if I linked to a basics on github markdown and another one on the rotifer protocol?
 
