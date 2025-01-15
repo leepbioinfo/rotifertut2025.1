@@ -11,9 +11,9 @@ blast = rdar.psiblast(protein, aln=False)
 
 
 Domino BB1
-![BB1](./BB1.png)
+![D1](./BB1.png)
 ### Alinhamento do Domino BB1
-[BB1](../data/BB1.html)
+[D1](../data/BB1.html)
 
 
 |    Header 1    |      Header2  |
