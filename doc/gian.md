@@ -12,7 +12,7 @@ af = rdar.psiblast(protein, aln=False,db='/databases/fadb/uniprot/uniref50')
 ```
 
 
-PDB file of the A0A1E1J6B3 AF model edited at Mol Star
+PDB file of the A0A1E1J6B3 AF model edited at [Mol Star](https://molstar.org)
 ![D1](./BB1.png)
 ### Alinhamento do Domino BB1
 [D1](../data/BB1.html)
