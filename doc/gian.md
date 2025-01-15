@@ -8,7 +8,7 @@ blast = rdar.psiblast(protein)
 ```
 
 
-|        |        |
+|    Header 1    |      Header2  |
 | ---    | ---    |
 | fdsfad |        |
 |        | fsd    |
@@ -18,23 +18,7 @@ blast = rdar.psiblast(protein)
 |        |        |
 |        |        |
 |        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
-|        |        |
+|
 |        |        |
 |        |        |
 |        |        |
