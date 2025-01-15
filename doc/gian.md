@@ -3,8 +3,10 @@ Gian's note
 ```python
 from rotifer.devel.beta import sequence as rdbs
 from rotifer.devel.alpha import rodolfo as rdar
-protein = rdbs.sequence['WP_xxxx']
-blast = rdar.psiblast(protein)
+#Fetch sequence from a fasta file:
+protein = rdbs.sequence('./data/leifabp.fa')
+#Fetching homologous unis blast:
+blast = rdar.psiblast(protein, aln=False)
 ```
 
 
