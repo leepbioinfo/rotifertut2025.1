@@ -18,7 +18,6 @@ blast = rdar.psiblast(protein)
 |        |        |
 |        |        |
 |        |        |
-|
 |        |        |
 |        |        |
 |        |        |
