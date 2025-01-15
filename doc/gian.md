@@ -7,6 +7,8 @@ from rotifer.devel.alpha import rodolfo as rdar
 protein = rdbs.sequence('./data/leifabp.fa')
 #Fetching homologous unis blast:
 blast = rdar.psiblast(protein, aln=False)
+#Fetching proteins at the uniprot50 DB to collect AF models
+af = rdar.psiblast(protein, aln=False,db='/databases/fadb/uniprot/uniref50')
 ```
 
 
